@@ -1,0 +1,34 @@
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d3cbd9;
+  gap: 10px;
+}
+.phone {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: right;
+  color: var(--text-podpis);
+}
+
+.phone p {
+  margin-bottom: 8px;
+}
+
+.phone a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--text-zagolovochnyy);
+  transition: color 0.2s;
+}
+
+.phone a:hover {
+  color: #3596ed;
+}
