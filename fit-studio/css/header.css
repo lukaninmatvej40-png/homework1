@@ -8,13 +8,7 @@
   gap: 10px;
 }
 .phone {
-  font-family: var(--font-family);
-  font-weight: 300;
-  font-size: 14px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
   text-align: right;
-  color: var(--text-podpis);
 }
 
 .phone p {
@@ -22,10 +16,9 @@
 }
 
 .phone a {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;
-  color: var(--text-zagolovochnyy);
+  color: #2c332f;
   transition: color 0.2s;
 }
 
