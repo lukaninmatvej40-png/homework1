@@ -6,9 +6,11 @@
 
 @media (width <= 768px) {
   .burger {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: var(--layer-3);
     width: 24px;
     height: 24px;
   }

@@ -9,6 +9,7 @@
       href="./icons/nike-favicon-48x48.ico"
       type="image/x-icon"
     />
+    <script src="./js/index.js" type="module"></script>
     <title>Nike Air Mag</title>
   </head>
   <body class="page__body">
@@ -23,7 +24,11 @@
             alt="Логотип Nike"
           />
         </a>
-        <nav class="menu header__menu" aria-label="Главное меню">
+        <nav
+          class="menu header__menu"
+          id="header__menu"
+          aria-label="Главное меню"
+        >
           <ul class="menu__list">
             <li class="menu__item">
               <a class="menu__link" href="#air-mag" lang="en">Air Mag</a>
@@ -66,7 +71,12 @@
                 ></use>
               </svg>
             </button>
-            <button class="header__burger burger" aria-label="Открыть меню">
+            <button
+              class="header__burger burger"
+              aria-label="Открыть меню"
+              aria-expanded="false"
+              aria-controls="header__menu"
+            >
               <svg width="24" height="24">
                 <use
                   class="burger__icon-menu"
@@ -82,5 +92,38 @@
         </div>
       </div>
     </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container hero__container">
+          <header class="hero__header">
+            <ul class="hero__benefits-list">
+              <li class="hero__benefits-item">стиль</li>
+              <li class="hero__benefits-item">скорость</li>
+            </ul>
+            <h1 class="hero__title">
+              Nike <span class="hero__title-accent">air</span> mag
+            </h1>
+          </header>
+          <img
+            class="hero__img"
+            src="./images/nike-air-mag-1.png"
+            width="846"
+            height="713"
+            alt="Кроссовок Nike Air Mag с желтым кольцом под подошвой"
+          />
+          <footer class="hero__footer">
+            <a class="hero__details" href="#">
+              Подробнее
+              <svg width="24" height="24">
+                <use
+                  class="hero__details-icon"
+                  href="./icons/main-sprite.svg#arrow-right"
+                ></use>
+              </svg>
+            </a>
+          </footer>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

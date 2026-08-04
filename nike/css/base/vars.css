@@ -16,4 +16,10 @@
 
   /* transitions */
   --transition-time: 0.2s;
+
+  /* layers */
+  --layer-negative: -1;
+  --layer-1: 1;
+  --layer-2: 2;
+  --layer-3: 3;
 }

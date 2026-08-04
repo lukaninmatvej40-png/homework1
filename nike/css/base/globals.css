@@ -6,8 +6,11 @@
 
 .page__body {
   min-width: 375px;
-  min-height: 200vh;
   background-color: var(--bg-color);
+}
+
+.page__body--no-scroll {
+  overflow-y: hidden;
 }
 
 .container {
