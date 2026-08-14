@@ -1,0 +1,56 @@
+.page {
+	font-family: var(--font-family);
+	font-weight: 400;
+	color: var(--main-color);
+	scroll-behavior: smooth;
+	scroll-padding-top: 100px;
+	scrollbar-gutter: stable;
+}
+
+.page__body {
+	min-width: 375px;
+	background-color: var(--bg-color);
+}
+
+.page__body--no-scroll {
+	overflow-y: hidden;
+}
+
+.container {
+	width: min(var(--container-width), 100% - var(--container-padding) * 2);
+	margin-inline: auto;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus {
+	outline: 2px solid var(--accent-color);
+	outline-offset: 2px;
+}
+
+.section {
+	padding-block: 60px;
+}
+
+@media (width <= 768px) {
+	.section {
+		padding-block: 40px;
+	}
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+	clip: rect(0 0 0 0);
+}

@@ -1,0 +1,848 @@
+<!doctype html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="./js/index.js" type="module"></script>
+    <title>SHOP.CO</title>
+  </head>
+  <body class="page__body" id="top">
+    <div class="top-banner" data-top-banner>
+      <div class="container top-banner__container">
+        <p class="top-banner__text">
+          Зарегистрируйтесь и получите скидку 20% на первую покупку.
+          <a class="top-banner__link" href="#">Зарегистрироваться</a>
+        </p>
+        <button
+          class="top-banner__close"
+          aria-label="Закрыть баннер"
+          data-top-banner-close
+        >
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path
+              d="M15 5L5 15M5 5l10 10"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container header__container">
+        <button
+          class="header__burger burger"
+          type="button"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+          aria-controls="header__menu"
+        >
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+        <a class="header__logo" href="#top">SHOP.CO</a>
+        <nav
+          class="menu header__menu"
+          id="header__menu"
+          aria-label="Главное меню"
+        >
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#new-arrivals">Магазин</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#top-sellers">Скидки</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#new-arrivals">Новые поступления</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#brands">Бренды</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__search">
+          <img
+            class="header__search-icon"
+            src="./icons/header__icon--search.svg"
+            width="20"
+            height="20"
+            alt=""
+          />
+          <input
+            class="header__search-input"
+            type="search"
+            placeholder="Поиск товаров..."
+            aria-label="Поиск товаров"
+          />
+        </div>
+        <div class="header__actions">
+          <button class="header__actions-button" type="button" aria-label="Корзина" data-cart-open>
+            <img
+              src="./icons/header__icon--cart.svg"
+              width="24"
+              height="24"
+              alt=""
+            />
+          </button>
+          <button class="header__actions-button" type="button" aria-label="Профиль">
+            <img
+              src="./icons/header__icon--user.svg"
+              width="24"
+              height="24"
+              alt=""
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__content">
+            <h1 class="hero__title">НАЙДИ ОДЕЖДУ КОТОРАЯ ВЫРАЗИТ ТВОЙ СТИЛЬ</h1>
+            <p class="hero__description">
+              Просмотрите наш набор тщательно сделанной одежды, созданный чтобы подчеркнуть ваш индивидуальный стиль.
+            </p>
+            <a class="hero__button" href="#new-arrivals">Купить сейчас</a>
+            <div class="hero__stats">
+              <div class="hero__stats-item">
+                <span class="hero__stats-value">200+</span>
+                <span class="hero__stats-label">Всемирных брендов</span>
+              </div>
+              <img
+                class="hero__stats-divider"
+                src="./icons/hero__stats-divider.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              <div class="hero__stats-item">
+                <span class="hero__stats-value">2,000+</span>
+                <span class="hero__stats-label">Качественных товаров</span>
+              </div>
+              <img
+                class="hero__stats-divider"
+                src="./icons/hero__stats-divider.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              <div class="hero__stats-item">
+                <span class="hero__stats-value">30,000+</span>
+                <span class="hero__stats-label">Счастливых клиентов</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero__image">
+            <img
+              src="./images/hero__image.png"
+              alt="Модели в стильной одежде"
+            />
+            <img
+              class="hero__decoration hero__decoration--star-big"
+              src="./icons/hero__decoration--star-big.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <img
+              class="hero__decoration hero__decoration--star-small"
+              src="./icons/hero__decoration--star-small.svg"
+              alt=""
+              aria-hidden="true"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="brands" id="brands">
+        <div class="brands__container">
+          <img
+            class="brands__logo"
+            src="./icons/brands__logo--versace.svg"
+            width="167"
+            height="34"
+            alt="VERSACE"
+          />
+          <img
+            class="brands__logo"
+            src="./icons/brands__logo--zara.svg"
+            width="91"
+            height="38"
+            alt="ZARA"
+          />
+          <img
+            class="brands__logo"
+            src="./icons/brands__logo--gucci.svg"
+            width="156"
+            height="36"
+            alt="GUCCI"
+          />
+          <img
+            class="brands__logo"
+            src="./icons/brands__logo--prada.svg"
+            width="194"
+            height="32"
+            alt="PRADA"
+          />
+          <img
+            class="brands__logo"
+            src="./icons/brands__logo--calvin-klein.svg"
+            width="207"
+            height="34"
+            alt="Calvin Klein"
+          />
+        </div>
+      </section>
+
+      <section class="products" id="new-arrivals">
+        <div class="container">
+          <h2 class="products__title">НОВЫЕ ПОСТУПЛЕНИЯ</h2>
+          <div class="products__grid">
+            <article class="product-card">
+              <div class="product-card__img-wrapper">
+                <img
+                  class="product-card__img"
+                  src="./images/product-card__image--tape-tshirt.png"
+                  width="295"
+                  height="298"
+                  alt="Футболка с лентой"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="product-card__name">Футболка с лентой</h3>
+              <div class="product-card__rating">
+                <div class="product-card__stars" data-rating="4.5"></div>
+                <span class="product-card__rating-value"
+                  >4.5/<span>5</span></span
+                >
+              </div>
+              <p class="product-card__price">
+                <span class="product-card__price-current">₽5000</span>
+              </p>
+              <button
+                class="product-card__button"
+                type="button"
+                data-cart-add
+                data-name="Футболка с лентой"
+                data-price="5000"
+              >
+                Добавить в корзину
+              </button>
+            </article>
+            <article class="product-card">
+              <div class="product-card__img-wrapper">
+                <img
+                  class="product-card__img"
+                  src="./images/product-card__image--skinny-jeans.png"
+                  width="295"
+                  height="298"
+                  alt="Узкие джинсы"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="product-card__name">Узкие джинсы</h3>
+              <div class="product-card__rating">
+                <div class="product-card__stars" data-rating="3.5"></div>
+                <span class="product-card__rating-value"
+                  >3.5/<span>5</span></span
+                >
+              </div>
+              <p class="product-card__price">
+                <span class="product-card__price-current">₽5000</span>
+                <span class="product-card__price-old">₽6000</span>
+                <span class="product-card__discount">-20%</span>
+              </p>
+              <button
+                class="product-card__button"
+                type="button"
+                data-cart-add
+                data-name="Узкие джинсы"
+                data-price="5000"
+              >
+                Добавить в корзину
+              </button>
+            </article>
+            <article class="product-card">
+              <div class="product-card__img-wrapper">
+                <img
+                  class="product-card__img"
+                  src="./images/product-card__image--checkered-shirt.png"
+                  width="295"
+                  height="298"
+                  alt="Клетчатая рубашка"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="product-card__name">Клетчатая рубашка</h3>
+              <div class="product-card__rating">
+                <div class="product-card__stars" data-rating="4.5"></div>
+                <span class="product-card__rating-value"
+                  >4.5/<span>5</span></span
+                >
+              </div>
+              <p class="product-card__price">
+                <span class="product-card__price-current">₽7000</span>
+              </p>
+              <button
+                class="product-card__button"
+                type="button"
+                data-cart-add
+                data-name="Клетчатая рубашка"
+                data-price="7000"
+              >
+                Добавить в корзину
+              </button>
+            </article>
+            <article class="product-card">
+              <div class="product-card__img-wrapper">
+                <img
+                  class="product-card__img"
+                  src="./images/product-card__image--striped-tshirt.png"
+                  width="295"
+                  height="298"
+                  alt="Футболка с полосами"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="product-card__name">Футболка с полосами</h3>
+              <div class="product-card__rating">
+                <div class="product-card__stars" data-rating="4.6"></div>
+                <span class="product-card__rating-value"
+                  >4.6/<span>5</span></span
+                >
+              </div>
+              <p class="product-card__price">
+                <span class="product-card__price-current">₽6000</span>
+                <span class="product-card__price-old">₽8000</span>
+                <span class="product-card__discount">-30%</span>
+              </p>
+              <button
+                class="product-card__button"
+                type="button"
+                data-cart-add
+                data-name="Футболка с полосами"
+                data-price="6000"
+              >
+                Добавить в корзину
+              </button>
+            </article>
+          </div>
+          <a class="products__view-all" href="#top-sellers">Посмотреть всё</a>
+        </div>
+      </section>
+
+      <div class="products__divider">
+        <div class="container">
+          <hr class="products__divider-line" />
+        </div>
+      </div>
+
+      <section class="products" id="top-sellers">
+        <div class="container">
+          <h2 class="products__title">ЛИДЕРЫ ПРОДАЖ</h2>
+          <div class="products__grid">
+            <article class="product-card">
+              <div class="product-card__img-wrapper">
+                <img
+                  class="product-card__img"
+                  src="./images/product-card__image--stripe-shirt.png"
+                  width="295"
+                  height="298"
+                  alt="Рубашка в полоску"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="product-card__name">Рубашка в полоску</h3>
+              <div class="product-card__rating">
+                <div class="product-card__stars" data-rating="5"></div>
+                <span class="product-card__rating-value"
+                  >5.0/<span>5</span></span
+                >
+              </div>
+              <p class="product-card__price">
+                <span class="product-card__price-current">₽5000</span>
+                <span class="product-card__price-old">₽6000</span>
+                <span class="product-card__discount">-20%</span>
+              </p>
+              <button
+                class="product-card__button"
+                type="button"
+                data-cart-add
+                data-name="Рубашка в полоску"
+                data-price="5000"
+              >
+                Добавить в корзину
+              </button>
+            </article>
+            <article class="product-card">
+              <div class="product-card__img-wrapper">
+                <img
+                  class="product-card__img"
+                  src="./images/product-card__image--courage-tshirt.png"
+                  width="295"
+                  height="298"
+                  alt="Футболка «Courage»"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="product-card__name">Футболка «Courage»</h3>
+              <div class="product-card__rating">
+                <div class="product-card__stars" data-rating="4"></div>
+                <span class="product-card__rating-value"
+                  >4.0/<span>5</span></span
+                >
+              </div>
+              <p class="product-card__price">
+                <span class="product-card__price-current">₽5000</span>
+              </p>
+              <button
+                class="product-card__button"
+                type="button"
+                data-cart-add
+                data-name="Футболка «Courage»"
+                data-price="5000"
+              >
+                Добавить в корзину
+              </button>
+            </article>
+            <article class="product-card">
+              <div class="product-card__img-wrapper">
+                <img
+                  class="product-card__img"
+                  src="./images/product-card__image--loose-bermudas.png"
+                  width="295"
+                  height="298"
+                  alt="Свободные бермуды"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="product-card__name">Свободные бермуды</h3>
+              <div class="product-card__rating">
+                <div class="product-card__stars" data-rating="3"></div>
+                <span class="product-card__rating-value"
+                  >3.0/<span>5</span></span
+                >
+              </div>
+              <p class="product-card__price">
+                <span class="product-card__price-current">₽4000</span>
+              </p>
+              <button
+                class="product-card__button"
+                type="button"
+                data-cart-add
+                data-name="Свободные бермуды"
+                data-price="4000"
+              >
+                Добавить в корзину
+              </button>
+            </article>
+            <article class="product-card">
+              <div class="product-card__img-wrapper">
+                <img
+                  class="product-card__img"
+                  src="./images/product-card__image--faded-jeans.png"
+                  width="295"
+                  height="298"
+                  alt="Потертые узкие джинсы"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="product-card__name">Потертые узкие джинсы</h3>
+              <div class="product-card__rating">
+                <div class="product-card__stars" data-rating="4.5"></div>
+                <span class="product-card__rating-value"
+                  >4.5/<span>5</span></span
+                >
+              </div>
+              <p class="product-card__price">
+                <span class="product-card__price-current">₽7000</span>
+              </p>
+              <button
+                class="product-card__button"
+                type="button"
+                data-cart-add
+                data-name="Потертые узкие джинсы"
+                data-price="7000"
+              >
+                Добавить в корзину
+              </button>
+            </article>
+          </div>
+          <a class="products__view-all" href="#top">Посмотреть всё</a>
+        </div>
+      </section>
+
+      <section class="styles">
+        <div class="container">
+          <div class="styles__wrapper">
+            <h2 class="styles__title">ВЫБЕРИ СВОЙ СТИЛЬ</h2>
+            <div class="styles__grid">
+              <article class="styles__card styles__card--casual">
+                <img
+                  class="styles__card-img"
+                  src="./images/styles__image--casual.png"
+                  width="400"
+                  height="289"
+                  alt="Свободный стиль"
+                  loading="lazy"
+                />
+                <h3 class="styles__card-title">Свободный</h3>
+              </article>
+              <article class="styles__card styles__card--formal">
+                <img
+                  class="styles__card-img"
+                  src="./images/styles__image--formal.png"
+                  width="400"
+                  height="289"
+                  alt="Формальный стиль"
+                  loading="lazy"
+                />
+                <h3 class="styles__card-title">Формальный</h3>
+              </article>
+              <article class="styles__card styles__card--gym">
+                <img
+                  class="styles__card-img"
+                  src="./images/styles__image--gym.png"
+                  width="400"
+                  height="289"
+                  alt="Спортивный стиль"
+                  loading="lazy"
+                />
+                <h3 class="styles__card-title">Спорт</h3>
+              </article>
+              <article class="styles__card styles__card--party">
+                <img
+                  class="styles__card-img"
+                  src="./images/styles__image--party.png"
+                  width="400"
+                  height="289"
+                  alt="Вечерний стиль"
+                  loading="lazy"
+                />
+                <h3 class="styles__card-title">Вечерний</h3>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="container">
+          <div class="reviews__header">
+            <h2 class="reviews__title">ЧТО О НАС ГОВОРЯТ</h2>
+            <div class="reviews__nav">
+              <button
+                class="reviews__nav-button"
+                aria-label="Предыдущий отзыв"
+                data-reviews-prev
+              >
+                <img
+                  src="./icons/reviews__arrow--prev.svg"
+                  width="24"
+                  height="24"
+                  alt=""
+                />
+              </button>
+              <button
+                class="reviews__nav-button"
+                aria-label="Следующий отзыв"
+                data-reviews-next
+              >
+                <img
+                  src="./icons/reviews__arrow--next.svg"
+                  width="24"
+                  height="24"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <div class="reviews__viewport" data-reviews-viewport>
+            <div class="reviews__track" data-reviews-track>
+              <article class="reviews__card">
+                <div class="reviews__rating">
+                  <div class="reviews__stars" data-rating="5"></div>
+                </div>
+                <h3 class="reviews__author">
+                  Виталий У.
+                  <img
+                    class="reviews__verified"
+                    src="./icons/reviews__verified.svg"
+                    width="20"
+                    height="20"
+                    alt="Подтверждённый покупатель"
+                  />
+                </h3>
+                <p class="reviews__text">
+                  «Я в восторге от качества и стиля одежды, которую получил от Shop.co. От повседневных вещей до элегантных платьев — каждая покупка превзошла мои ожидания.»
+                </p>
+              </article>
+              <article class="reviews__card">
+                <div class="reviews__rating">
+                  <div class="reviews__stars" data-rating="5"></div>
+                </div>
+                <h3 class="reviews__author">
+                  Даниил В.
+                  <img
+                    class="reviews__verified"
+                    src="./icons/reviews__verified.svg"
+                    width="20"
+                    height="20"
+                    alt="Подтверждённый покупатель"
+                  />
+                </h3>
+                <p class="reviews__text">
+                  «Раньше было трудно найти одежду под мой стиль, пока я не открыл Shop.co. Их ассортимент впечатляет и подходит для разных вкусов и случаев.»
+                </p>
+              </article>
+              <article class="reviews__card">
+                <div class="reviews__rating">
+                  <div class="reviews__stars" data-rating="5"></div>
+                </div>
+                <h3 class="reviews__author">
+                  Альберт Б.
+                  <img
+                    class="reviews__verified"
+                    src="./icons/reviews__verified.svg"
+                    width="20"
+                    height="20"
+                    alt="Подтверждённый покупатель"
+                  />
+                </h3>
+                <p class="reviews__text">
+                  «Я всегда ищу уникальные модные вещи и был рад открыть для себя Shop.co. Их выбор одежды очень разнообразен и полностью соответствует последним модным трендам.»
+                </p>
+              </article>
+              <article class="reviews__card">
+                <div class="reviews__rating">
+                  <div class="reviews__stars" data-rating="5"></div>
+                </div>
+                <h3 class="reviews__author">
+                  Матвей К.
+                  <img
+                    class="reviews__verified"
+                    src="./icons/reviews__verified.svg"
+                    width="20"
+                    height="20"
+                    alt="Подтверждённый покупатель"
+                  />
+                </h3>
+                <p class="reviews__text">
+                  «Я всегда ищу уникальные модные вещи и рад, что открыл Shop.co. Их ассортимент одежды разнообразен и полностью соответствует последним модным тенденциям.»
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="newsletter">
+        <div class="container newsletter__container">
+          <h2 class="newsletter__title">
+            БУДЬТЕ В КУРСЕ ВСЕХ ПОСЛЕДНИХ НОВОСТЕЙ
+          </h2>
+          <form class="newsletter__form" data-newsletter-form>
+            <label class="newsletter__field">
+              <img
+                class="newsletter__icon"
+                src="./icons/newsletter__icon--email.svg"
+                width="24"
+                height="24"
+                alt=""
+                aria-hidden="true"
+              />
+              <input
+                class="newsletter__input"
+                type="email"
+                placeholder="Ваша почта"
+                aria-label="Электронная почта"
+                required
+              />
+            </label>
+            <button class="newsletter__button" type="submit">
+              Подписаться на рассылку
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <div class="container footer__container">
+        <div class="footer__main">
+          <div class="footer__column footer__column--brand">
+            <a class="footer__logo" href="#">SHOP.CO</a>
+            <p class="footer__description">
+              У нас есть одежда, что подходит вашему стилю и которой можно гордиться. Для женщин и мужчин.
+            </p>
+            <div class="footer__socials">
+              <a class="footer__social" href="#" aria-label="Twitter">
+                <img
+                  src="./icons/footer__social--twitter.svg"
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+              </a>
+              <a class="footer__social" href="#" aria-label="Facebook">
+                <img
+                  src="./icons/footer__social--facebook.svg"
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+              </a>
+              <a class="footer__social" href="#" aria-label="Instagram">
+                <img
+                  src="./icons/footer__social--instagram.svg"
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+              </a>
+              <a class="footer__social" href="#" aria-label="GitHub">
+                <img
+                  src="./icons/footer__social--github.svg"
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="footer__column">
+            <h3 class="footer__column-title">КОМПАНИЯ</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">О нас</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Франшиза</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Работы</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Карьера</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h3 class="footer__column-title">ПОМОЩЬ</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Поддержка</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Доставка</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Условия</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Политика</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h3 class="footer__column-title">ВОПРОСЫ</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Аккаунт</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">О доставке</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Заказы</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Платежи</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h3 class="footer__column-title">РЕСУРСЫ</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Бесплатные книги</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Уроки</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Блог</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Подкаст на YouTube</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">
+            Shop.co © 2000-2023. Все права защищены
+          </p>
+          <div class="footer__payments">
+            <img
+              class="footer__payment"
+              src="./icons/footer__payment--visa.svg"
+              width="46"
+              height="30"
+              alt="Visa"
+              loading="lazy"
+            />
+            <img
+              class="footer__payment"
+              src="./icons/footer__payment--mastercard.svg"
+              width="46"
+              height="30"
+              alt="Mastercard"
+              loading="lazy"
+            />
+            <img
+              class="footer__payment"
+              src="./icons/footer__payment--paypal.svg"
+              width="46"
+              height="30"
+              alt="PayPal"
+              loading="lazy"
+            />
+            <img
+              class="footer__payment"
+              src="./icons/footer__payment--applepay.svg"
+              width="46"
+              height="30"
+              alt="Apple Pay"
+              loading="lazy"
+            />
+            <img
+              class="footer__payment"
+              src="./icons/footer__payment--googlepay.svg"
+              width="46"
+              height="30"
+              alt="Google Pay"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal" id="cart-modal" role="dialog" aria-modal="true" aria-labelledby="cart-modal-title">
+      <div class="modal__overlay" data-cart-close></div>
+      <div class="modal__content">
+        <button class="modal__close" type="button" aria-label="Закрыть корзину" data-cart-close>
+          <span aria-hidden="true">×</span>
+        </button>
+        <h2 class="modal__title" id="cart-modal-title">Ваша корзина</h2>
+        <p class="modal__body" data-cart-empty>В корзине пока нет товаров.</p>
+        <ul class="modal__items" data-cart-items></ul>
+      </div>
+    </div>
+  </body>
+</html>
