@@ -16,7 +16,12 @@
 
 .hero__container {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   /* min-width 375px, max-width 922px */
   min-height: clamp(433px, 13.823rem + 56.49vw, 742px);
@@ -35,25 +40,41 @@
 }
 
 .hero__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
 }
 
 @media (width > 768px) {
   .hero__header {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 }
 
 @media (width <= 768px) {
   .hero__header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 }
 
 .hero__benefits-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   gap: 5px;
 }
@@ -86,7 +107,11 @@
 }
 
 .hero__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   /* min-width 375px, max-width 1920px */
   gap: clamp(8px, 0.09rem + 1.75vw, 35px);
@@ -117,6 +142,8 @@
   position: absolute;
   top: 88px;
   left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   z-index: var(--layer-negative);
 }
@@ -127,7 +154,11 @@
 }
 
 .hero__details {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 15px;
   font-weight: 400;
@@ -136,6 +167,8 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--main-color);
+  -webkit-transition: color var(--transition-time);
+  -o-transition: color var(--transition-time);
   transition: color var(--transition-time);
 }
 
