@@ -1,0 +1,53 @@
+/* Вариант 1 — ЯРКИЙ / живой: тон в тон со слайдером (коралл + янтарь) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --color-bg: #fffaf5;
+  --color-surface: #fff0e4;
+  --color-text: #2b2420;
+  --color-text-muted: #8a7a6c;
+  --color-primary: #ef5a6f;
+  --color-primary-dark: #d03f54;
+  --color-accent: #ff8a3d;
+  --color-accent-contrast: #ffd166;
+  --color-border: #f3ddc9;
+  --color-header-bg: #ffffff;
+  --color-topbar-bg: linear-gradient(90deg, #ff8a3d 0%, #ff6f61 55%, #ef5a6f 100%);
+  --color-footer-bg: #2b2420;
+  --color-footer-text: #e3cfc2;
+
+  --font-heading: 'Poppins', Arial, sans-serif;
+  --font-body: 'Inter', Arial, sans-serif;
+}
+
+.top-bar { color: #fff; }
+.top-bar a { color: #fff; }
+
+/* более живые акценты: градиенты вместо плоского цвета */
+.btn {
+  background: linear-gradient(135deg, #ff8a3d 0%, #ef5a6f 100%);
+}
+.btn:hover {
+  background: linear-gradient(135deg, #ff7a24 0%, #d03f54 100%);
+}
+.product-card .badge {
+  background: linear-gradient(135deg, #ff8a3d 0%, #ef5a6f 100%);
+}
+.section-title h2::after {
+  background: linear-gradient(90deg, #ff8a3d, #ef5a6f);
+  height: 4px;
+  width: 72px;
+}
+.category-card:hover {
+  box-shadow: 0 16px 34px rgba(239, 90, 111, .22);
+}
+.product-card:hover {
+  box-shadow: 0 20px 44px rgba(255, 138, 61, .22);
+}
+.advantage-card .icon, .pay-icon, .contact-info-item .icon, .review-author .avatar {
+  background: linear-gradient(135deg, #ff8a3d 0%, #ef5a6f 100%);
+  color: #fff;
+}
+.review-card .stars { color: #ff8a3d; }
+.category-card::before { border-color: #ff8a3d; opacity: .6; }
+.page-hero::before, .page-hero::after, .section-title::before { opacity: .3; }
