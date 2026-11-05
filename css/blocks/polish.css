@@ -1,0 +1,66 @@
+/* Requested visual refinements. */
+.header__main {display:grid;grid-template-columns:230px minmax(170px,1fr) auto;gap:22px;padding-block:24px}
+.header__main .header__phone {display:none}
+.header__main .search {max-width:none;margin:0}
+.shop-actions {display:flex;align-items:center;gap:8px}
+.shop-actions__link {position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-width:72px;min-height:58px;padding:6px 6px;color:#302725;font-size:10px;font-weight:650;line-height:1.2;text-align:center;border:1px solid transparent;border-radius:8px}
+.shop-actions__link:hover {background:#f5ebed;border-color:#e4cbd0;color:#71313c}
+.shop-actions__link .action-icon {width:20px;height:20px}
+.shop-actions__link--cart {min-width:84px;background:#f5ebed;border-color:#e8d5d9;color:#71313c}
+.shop-actions__link strong {display:block;margin-top:2px;font-size:12px;white-space:nowrap}
+.shop-actions__badge {position:absolute;top:3px;right:13px;background:#823e48;color:#fff;border-radius:20px;min-width:18px;padding:2px 4px;font-size:10px;line-height:1.3}
+.source-content a.button,.source-content a.button:visited,.empty-state a.button {color:#fff;text-decoration:none;background:#823e48}
+.source-content a.button:hover,.empty-state a.button:hover {background:#652c35;color:#fff}
+.order-cta {font-size:16px;min-width:190px;min-height:54px;margin-block:18px 10px;box-shadow:0 6px 16px #823e4826}
+.product-card__image {padding:0;background:#f8f5f1;aspect-ratio:1;overflow:hidden}
+.product-card__image img {width:100%;height:100%;object-fit:contain;mix-blend-mode:normal}
+.product-card:hover .product-card__image img {transform:scale(1.025)}
+.product-card:hover .product-card__image:has(.product-card__hover-image) img:first-child {opacity:0}
+.product-card:hover .product-card__image:has(.product-card__hover-image) .product-card__hover-image {opacity:1}
+.payment-methods {display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:42px}
+.payment-method {padding:26px;border:1px solid #e7ded5;border-radius:14px;background:#fff}
+.payment-art {height:180px;border-radius:10px;background:#eee5d9;display:flex;justify-content:center;align-items:center;gap:26px;margin-bottom:24px;overflow:hidden;color:#7a5c35}
+.payment-art .action-icon {width:120px;height:120px;transform:rotate(-9deg);stroke-width:1}
+.payment-art--cash>span {font-size:64px;font-weight:700}
+.payment-art--card {background:#f1e4e7;color:#823e48;flex-direction:column;gap:0}
+.payment-art--card .action-icon {width:130px;height:110px;transform:rotate(-8deg)}
+.payment-art--card>span {font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.payment-method__number {font-size:10px;color:#886a50;letter-spacing:.12em;font-weight:700}
+.payment-method h2 {font-size:25px;margin:10px 0;line-height:1.35}
+.payment-method p {color:#6c625d;font-size:14px;margin-bottom:17px}
+.payment-brands {display:flex;flex-wrap:wrap;gap:7px}
+.payment-brands span {display:inline-block;padding:7px 9px;border:1px solid #e6ddd6;border-radius:5px;font-size:12px;font-weight:750;background:#fff;color:#342d29}
+.payment-brands span:first-child {color:#256d47}
+.payment-details-title {font-size:25px;margin-bottom:24px}
+.page--payment .source-content {padding:28px;border:1px solid #e7ded5;border-radius:12px;background:#faf8f5}
+.contact-map {margin:0 0 38px;border:1px solid #e7ded5;border-radius:12px;overflow:hidden;background:#f8f5f1}
+.contact-map__heading {display:flex;align-items:center;justify-content:space-between;gap:20px;padding:24px}
+.contact-map__heading h2 {font-size:21px;line-height:1.4;margin-top:8px}
+.contact-map__heading .button {flex-shrink:0}
+.contact-map iframe {width:100%;height:440px;border:0;display:block;background:#eae6e1}
+.contact-map>p {font-size:12px;padding:13px 24px;color:#71645e}
+.page--contacts .source-column--third {flex-basis:100%}
+.page--contacts .source-content form {max-width:none}
+.source-reviews>div {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.source-review {border-radius:14px;border:1px solid #e3d8ce;box-shadow:0 6px 24px #39251d06;padding:26px;display:flex;flex-direction:column;gap:18px;background:#fff}
+.review-rating {display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-bottom:1px solid #eee4dc;padding-bottom:15px}
+.review-rating>span {font-size:25px;letter-spacing:3px;line-height:1;color:#a57830}
+.review-rating small {color:#796c60;font-size:11px}
+.source-review__text {font-size:14px;line-height:1.85}
+.source-review footer {padding-top:18px;border-top:1px solid #eee4dc;margin-top:20px;font-size:14px}
+.page--reviews .source-column--quarter {flex-basis:100%}
+.page--reviews form {max-width:none}
+.page--reviews form>p {max-width:700px}
+.rating-input {border:0;padding:0;margin:0 0 22px}
+.rating-input legend {font-size:14px;font-weight:600;margin-bottom:8px}
+.rating-input>div {display:flex;gap:9px}
+.rating-input label {position:relative;border:1px solid #dfd3c7;border-radius:8px;min-width:48px;text-align:center;padding:6px;cursor:pointer;background:white}
+.rating-input input {position:absolute;opacity:0;width:1px;height:1px}
+.rating-input span {font-size:26px;color:#baa586}
+.rating-input small {display:block;font-size:11px}
+.rating-input label:has(input:checked) {border-color:#996b22;background:#fff3d8}
+.rating-input label:has(input:checked) span {color:#a36b12}
+.rating-input label:focus-within {outline:2px solid #823e48;outline-offset:3px}
+@media(max-width:1150px){.header__main{grid-template-columns:200px minmax(140px,1fr) auto;gap:14px}.shop-actions__link{min-width:74px;font-size:11px;padding-inline:5px}.shop-actions__link--cart{min-width:96px}.logo__wordmark{font-size:20px}.contact-map__heading{flex-direction:column;align-items:start}}
+@media(max-width:900px){.header__main{grid-template-columns:1fr auto;gap:16px}.header__main .search{grid-column:1/-1;grid-row:3}.shop-actions{grid-column:1/-1;grid-row:2;justify-content:space-between}.shop-actions__link{flex:1;font-size:12px;min-width:0}.header__mobile{grid-column:2;grid-row:1}.payment-art{height:155px}.payment-method{padding:20px}}
+@media(max-width:580px){.payment-methods{grid-template-columns:1fr;gap:18px}.payment-art{height:170px}.payment-method h2{font-size:24px}.contact-map__heading{padding:20px}.contact-map iframe{height:350px}.source-reviews>div{grid-template-columns:1fr}.source-review{padding:22px}.header__main{padding-block:17px;gap:12px}.shop-actions{gap:3px}.shop-actions__link{font-size:10px;padding:5px 2px;min-height:58px}.shop-actions__link strong{font-size:11px}.shop-actions__badge{right:8px}.page--payment .source-content{padding:20px}.order-cta{width:100%}.product-card__image img{object-fit:contain}}

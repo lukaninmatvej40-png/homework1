@@ -1,0 +1,36 @@
+.guide-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 17px; }
+.guide-card { padding: 23px; background: var(--color-surface); border-top: 2px solid var(--color-line); }
+.guide-card:hover { border-top-color: var(--color-accent); }
+.guide-card__number { font-size: 9px; color: var(--color-warm); }
+.guide-card__title { font-size: 17px; font-weight: 500; margin-top: 19px; letter-spacing: -.03em; }
+.guide-card__text { color: var(--color-muted); font-size: 10px; line-height: 1.8; margin-top: 10px; }
+.guide-card__link { display: inline-block; font-size: 9px; font-weight: 600; color: var(--color-accent); margin-top: 23px; }
+.consultation { display: flex; align-items: center; justify-content: space-between; gap: 24px; background: var(--color-surface); padding: 28px; margin-top: 45px; border-left: 3px solid var(--color-warm); }
+.consultation__title { font-family: var(--font-display); font-weight: 400; font-size: 23px; margin-top: 8px; letter-spacing: -.03em; }
+.consultation__text { margin-top: 10px; max-width: 460px; font-size: 11px; color: var(--color-muted); }
+.consultation > .button { flex-shrink: 0; font-size: 10px; }
+.service-card { display: grid; grid-template-columns: 1fr 1fr; gap: 35px; align-items: center; padding: 30px; background: var(--color-surface); }
+.service-card__image { height: 320px; width: 100%; object-fit: contain; mix-blend-mode: multiply; }
+.service-card__title { font-family: var(--font-display); font-size: 31px; font-weight: 400; line-height: 1.2; margin-block: 12px 18px; }
+.service-card p { font-size: 12px; color: var(--color-muted); margin-block: 14px; }
+.service-card .eyebrow { font-size: 9px; }
+.service-card .button { margin-top: 12px; }
+.steps { counter-reset: step; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 25px; margin-top: 24px; }
+.steps__item { counter-increment: step; border-top: 1px solid var(--color-line); padding-top: 14px; }
+.steps__item::before { content: '0' counter(step); color: var(--color-warm); font-size: 10px; display: block; margin-bottom: 18px; }
+.steps__item strong { display: block; font-size: 13px; font-weight: 600; }
+.steps__item span { display: block; color: var(--color-muted); font-size: 11px; margin-top: 10px; }
+.info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.info-card { padding: 28px; border: 1px solid var(--color-line); }
+.info-card > .icon { color: var(--color-accent); width: 28px; height: 28px; margin-bottom: 17px; }
+.info-card__title { font-size: 19px; font-weight: 500; letter-spacing: -.03em; }
+.info-card p { font-size: 12px; color: var(--color-muted); margin-top: 12px; line-height: 1.9; }
+.faq { margin-top: 25px; }
+.faq__item { border-bottom: 1px solid var(--color-line); padding-block: 18px; }
+.faq__item summary { font-size: 13px; font-weight: 600; }
+.faq__item p { margin-top: 16px; font-size: 12px; color: var(--color-muted); max-width: 640px; }
+.prose, .prose__text { color: var(--color-muted); font-size: 13px; line-height: 2; max-width: 780px; }
+.prose p, .prose__text { margin-top: 18px; }
+.prose a { color: var(--color-accent); text-decoration: underline; }
+@media (max-width: 1150px) { .consultation { flex-direction: column; align-items: start; } .guide-card { padding: 20px 17px; } .guide-card__title { font-size: 15px; } }
+@media (max-width: 650px) { .guide-grid { grid-template-columns: 1fr; } .guide-card__title { margin-top: 10px; font-size: 19px; } .guide-card__text { font-size: 12px; } .guide-card__link { font-size: 11px; margin-top: 15px; } .service-card { grid-template-columns: 1fr; padding: 22px; gap: 15px; } .service-card__image { height: 230px; } .steps { grid-template-columns: 1fr; gap: 20px; } .steps__item::before { margin-bottom: 10px; } .info-grid { grid-template-columns: 1fr; } .consultation { padding: 24px; } .consultation__title { font-size: 25px; } }

@@ -1,0 +1,10 @@
+node_modules/
+__pycache__/
+*.pyc
+# Рабочие материалы проверки и скриншоты демо не нужны для публикации сайта
+reference/*.png
+reference/*.jpg
+reference/*.jpeg
+reference/*.zip
+reference/desktop.png
+reference/mobile.png

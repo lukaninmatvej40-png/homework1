@@ -1,0 +1,23 @@
+:root {
+  --font-body: 'Manrope', Arial, sans-serif;
+  --font-display: Georgia, 'Times New Roman', serif;
+  --color-text: #282c27;
+  --color-muted: #686e63;
+  --color-accent: #485747;
+  --color-accent-hover: #344132;
+  --color-accent-soft: #e9ede4;
+  --color-surface: #f4f3ee;
+  --color-paper: #fff;
+  --color-line: #e7e7df;
+  --color-warm: #a78c6d;
+  --container: 1424px;
+  --sidebar: 252px;
+  --radius: 4px;
+}
+:root[data-theme='graphite'] {
+  --color-accent: #424344;
+  --color-accent-hover: #232526;
+  --color-accent-soft: #ebebea;
+  --color-surface: #f4f3f1;
+  --color-warm: #977661;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "lenty-ribbony-demo",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Static multi-page BEM design presentation for lentyribbony.ru",
+  "scripts": {
+    "serve": "python -m http.server 4173 --bind 127.0.0.1",
+    "check": "node tools/check.cjs",
+    "build": "python tools/build.py"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.0"
+  }
+}

@@ -1,0 +1,1179 @@
+{
+  "id": "1",
+  "alias": "main-slider",
+  "title": "Main slider",
+  "slider_params": {
+    "addOns": [],
+    "version": "6.6.16",
+    "pakps": false,
+    "shortcode": "[rev_slider alias=\"main-slider\"][/rev_slider]",
+    "type": "standard",
+    "layouttype": "fullwidth",
+    "sourcetype": "gallery",
+    "googleFont": [],
+    "id": "woodmart-main-slider",
+    "class": "",
+    "wrapperclass": "",
+    "snap": {
+      "adjust": "none",
+      "snap": false,
+      "helpLines": false,
+      "gap": 20
+    },
+    "source": {
+      "type": "",
+      "post": {
+        "excerptLimit": "55",
+        "maxPosts": "30"
+      },
+      "woo": {
+        "excerptLimit": "55",
+        "maxProducts": "30"
+      },
+      "instagram": {
+        "count": ""
+      },
+      "facebook": {
+        "count": ""
+      },
+      "flickr": {
+        "count": ""
+      },
+      "twitter": {
+        "count": ""
+      },
+      "vimeo": {
+        "count": ""
+      },
+      "youtube": {
+        "count": ""
+      }
+    },
+    "def": {
+      "intelligentInherit": true,
+      "autoResponsive": true,
+      "responsiveChilds": true,
+      "responsiveOffset": true,
+      "transition": "fade",
+      "transitionDuration": "300",
+      "delay": "9000",
+      "background": {
+        "fit": "cover",
+        "fitX": "100",
+        "fitY": "100",
+        "position": "center center",
+        "positionX": "0",
+        "positionY": "0",
+        "repeat": "no-repeat",
+        "imageSourceType": "full"
+      },
+      "panZoom": {
+        "set": false,
+        "blurStart": "0",
+        "blurEnd": "0",
+        "duration": "",
+        "ease": "none",
+        "fitEnd": "100",
+        "fitStart": "100",
+        "xEnd": "0",
+        "yEnd": "0",
+        "xStart": "0",
+        "yStart": "0",
+        "rotateStart": "0",
+        "rotateEnd": "0"
+      }
+    },
+    "size": {
+      "enableUpscaling": false,
+      "respectAspectRatio": false,
+      "disableForceFullWidth": false,
+      "custom": {
+        "d": true,
+        "n": true,
+        "t": true,
+        "m": true
+      },
+      "minHeightFullScreen": "",
+      "minHeight": "",
+      "maxWidth": "",
+      "maxHeight": 0,
+      "fullScreenOffsetContainer": "",
+      "fullScreenOffset": "",
+      "width": {
+        "d": 1240,
+        "n": 1024,
+        "t": 778,
+        "m": 480
+      },
+      "height": {
+        "d": 495,
+        "n": 476,
+        "t": 500,
+        "m": 600
+      },
+      "editorCache": {
+        "d": 495,
+        "n": 476,
+        "t": 500,
+        "m": 600
+      },
+      "overflow": false,
+      "useFullScreenHeight": true,
+      "overflowHidden": false,
+      "gridEQModule": false,
+      "forceOverflow": false,
+      "keepBPHeight": false,
+      "ignoreHeightChanges": true
+    },
+    "codes": {
+      "css": "",
+      "javascript": ""
+    },
+    "carousel": {
+      "orientation": "h",
+      "prevNextVis": "50px",
+      "justify": false,
+      "justifyMaxWidth": false,
+      "snap": true,
+      "borderRadius": "0",
+      "borderRadiusUnit": "px",
+      "ease": "power3.inOut",
+      "fadeOut": true,
+      "scale": false,
+      "offsetScale": false,
+      "horizontal": "center",
+      "vertical": "center",
+      "infinity": false,
+      "maxItems": "3",
+      "maxRotation": "0",
+      "maxOpacity": 100,
+      "paddingTop": "0",
+      "paddingBottom": "0",
+      "rotation": false,
+      "scaleDown": 50,
+      "space": "0",
+      "speed": "800",
+      "stretch": false,
+      "varyFade": false,
+      "varyRotate": false,
+      "varyScale": false,
+      "showAllLayers": false,
+      "skewX": 0,
+      "skewY": 0,
+      "spin": "off",
+      "spinAngle": 0,
+      "overshoot": false
+    },
+    "hero": {
+      "activeSlide": "-1"
+    },
+    "layout": {
+      "bg": {
+        "color": "#f8f8f8",
+        "padding": "0",
+        "dottedOverlay": "none",
+        "dottedOverlaySize": 1,
+        "dottedColorA": "transparent",
+        "dottedColorB": "#000000",
+        "shadow": "0",
+        "useImage": false,
+        "image": "",
+        "imageSourceType": "full",
+        "fit": "cover",
+        "position": "center center",
+        "repeat": "no-repeat"
+      },
+      "spinner": {
+        "color": "#FFFFFF",
+        "type": "0"
+      },
+      "position": {
+        "marginTop": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "marginRight": "0",
+        "align": "center",
+        "fixedOnTop": false,
+        "addClear": false
+      }
+    },
+    "visibility": {
+      "hideSelectedLayersUnderLimit": "0",
+      "hideAllLayersUnderLimit": "0",
+      "hideSliderUnderLimit": "0"
+    },
+    "general": {
+      "slideshow": {
+        "slideShow": true,
+        "stopOnHover": true,
+        "stopSlider": false,
+        "stopAfterLoops": "0",
+        "stopAtSlide": "2",
+        "shuffle": false,
+        "loopSingle": false,
+        "viewPort": true,
+        "viewPortStart": "wait",
+        "viewPortArea": {
+          "d": {
+            "v": "20%",
+            "e": false,
+            "u": ""
+          },
+          "n": {
+            "v": "20%",
+            "e": false,
+            "u": ""
+          },
+          "t": {
+            "v": "20%",
+            "e": false,
+            "u": ""
+          },
+          "m": {
+            "v": "20%",
+            "e": false,
+            "u": ""
+          }
+        },
+        "presetSliderHeight": true,
+        "initDelay": "0",
+        "waitForInit": false,
+        "globalViewPort": true,
+        "globalViewDist": "-200px"
+      },
+      "progressbar": {
+        "set": false,
+        "alignby": "slider",
+        "style": "horizontal",
+        "size": "5",
+        "radius": 10,
+        "vertical": "top",
+        "horizontal": "left",
+        "x": 0,
+        "y": 0,
+        "color": "rgba(0,0,0,0.15)",
+        "bgcolor": "transparent",
+        "basedon": "slide",
+        "gapsize": 0,
+        "gap": false,
+        "gapcolor": "rgba(255,255,255,0.5)",
+        "reset": "reset",
+        "visibility": {
+          "d": true,
+          "m": true,
+          "n": true,
+          "t": true
+        }
+      },
+      "firstSlide": {
+        "set": false,
+        "duration": "300",
+        "slotAmount": "7",
+        "type": "fade",
+        "alternativeFirstSlideSet": false,
+        "alternativeFirstSlide": "1"
+      },
+      "icache": "default",
+      "DPR": "dpr",
+      "observeWrap": false,
+      "layerSelection": false,
+      "lazyLoad": "smart",
+      "nextSlideOnFocus": false,
+      "disableFocusListener": false,
+      "enableurlhash": false,
+      "disableOnMobile": false,
+      "autoPlayVideoOnMobile": true,
+      "disablePanZoomMobile": false,
+      "useWPML": false,
+      "perspective": 600,
+      "perspectiveType": "local"
+    },
+    "nav": {
+      "preview": {
+        "width": "100",
+        "height": "50"
+      },
+      "swipe": {
+        "set": true,
+        "setOnDesktop": true,
+        "setMobileCarousel": true,
+        "setDesktopCarousel": true,
+        "blockDragVertical": false,
+        "direction": "horizontal",
+        "minTouch": "50",
+        "velocity": "75"
+      },
+      "keyboard": {
+        "direction": "horizontal",
+        "set": false
+      },
+      "mouse": {
+        "set": false,
+        "reverse": "default",
+        "viewport": 50,
+        "calldelay": 1000,
+        "threshold": 50
+      },
+      "arrows": {
+        "set": true,
+        "rtl": false,
+        "animSpeed": "1000ms",
+        "animDelay": "1000ms",
+        "style": 1011,
+        "preset": "arrow-size",
+        "presets": {
+          "padding-def": true,
+          "padding": "3",
+          "size-def": true,
+          "size": "45",
+          "bg-color": "#ffffff",
+          "bg-color-def": false,
+          "arrow-color": "#000000",
+          "arrow-color-def": false,
+          "bg-hover-color": "rgba(255,255,255,0.75)",
+          "bg-hover-color-def": false
+        },
+        "alwaysOn": true,
+        "hideDelay": "200",
+        "hideDelayMobile": "1200",
+        "hideOver": false,
+        "hideOverLimit": "0",
+        "hideUnder": true,
+        "hideUnderLimit": "778",
+        "left": {
+          "anim": "fade",
+          "horizontal": "left",
+          "vertical": "center",
+          "offsetX": "20",
+          "offsetY": "0",
+          "align": "slider"
+        },
+        "right": {
+          "anim": "fade",
+          "horizontal": "right",
+          "vertical": "center",
+          "offsetX": "20",
+          "offsetY": "0",
+          "align": "slider"
+        }
+      },
+      "thumbs": {
+        "anim": "fade",
+        "animSpeed": "1000ms",
+        "animDelay": "1000ms",
+        "set": false,
+        "rtl": false,
+        "style": 2000,
+        "preset": "default",
+        "presets": [],
+        "alwaysOn": true,
+        "hideDelay": "200",
+        "hideDelayMobile": "1200",
+        "hideOver": false,
+        "hideOverLimit": "0",
+        "hideUnder": false,
+        "hideUnderLimit": "0",
+        "spanWrapper": false,
+        "horizontal": "center",
+        "vertical": "bottom",
+        "amount": "5",
+        "direction": "horizontal",
+        "height": "50",
+        "width": "100",
+        "widthMin": "100",
+        "innerOuter": "inner",
+        "offsetX": "0",
+        "offsetY": "20",
+        "space": "5",
+        "align": "slider",
+        "padding": "5",
+        "wrapperColor": "transparent",
+        "mhoffset": 0,
+        "mvoffset": 0
+      },
+      "tabs": {
+        "anim": "fade",
+        "animSpeed": "1000ms",
+        "animDelay": "1000ms",
+        "set": false,
+        "rtl": false,
+        "style": 4000,
+        "preset": "default",
+        "presets": [],
+        "alwaysOn": true,
+        "hideDelay": "200",
+        "hideDelayMobile": "1200",
+        "hideOver": false,
+        "hideOverLimit": "0",
+        "hideUnder": false,
+        "hideUnderLimit": "0",
+        "spanWrapper": false,
+        "horizontal": "center",
+        "vertical": "bottom",
+        "amount": "5",
+        "direction": "horizontal",
+        "height": "50",
+        "width": "100",
+        "widthMin": "100",
+        "innerOuter": "inner",
+        "offsetX": "0",
+        "offsetY": "20",
+        "space": "5",
+        "align": "slider",
+        "padding": "5",
+        "wrapperColor": "transparent",
+        "mhoffset": 0,
+        "mvoffset": 0
+      },
+      "bullets": {
+        "anim": "fade",
+        "animSpeed": "1000ms",
+        "animDelay": "1000ms",
+        "set": true,
+        "rtl": false,
+        "style": 3005,
+        "preset": "default",
+        "presets": {
+          "bullet-size": "16",
+          "bullet-size-def": false,
+          "bullet-color": "#ffffff",
+          "bullet-color-def": false,
+          "border": "2",
+          "border-def": false,
+          "bullet-hover": "rgba(0,0,0,0.21)",
+          "bullet-hover-def": false
+        },
+        "alwaysOn": true,
+        "horizontal": "center",
+        "vertical": "bottom",
+        "direction": "horizontal",
+        "offsetX": "0",
+        "offsetY": "20",
+        "align": "slider",
+        "space": "5",
+        "hideDelay": "200",
+        "hideDelayMobile": "1200",
+        "hideOver": false,
+        "hideOverLimit": "0",
+        "hideUnder": false,
+        "hideUnderLimit": "0"
+      }
+    },
+    "troubleshooting": {
+      "alternateImageType": "off",
+      "alternateURL": "",
+      "jsNoConflict": false,
+      "jsInBody": false,
+      "outPutFilter": "none",
+      "simplify_ie8_ios4": false,
+      "ignoreHeightChanges": false,
+      "ignoreHeightChangesUnderLimit": "0",
+      "debugMode": false
+    },
+    "parallax": {
+      "set": true,
+      "setDDD": false,
+      "disableOnMobile": true,
+      "levels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "55"
+      ],
+      "ddd": {
+        "BGFreeze": false,
+        "layerOverflow": false,
+        "overflow": false,
+        "shadow": false,
+        "zCorrection": "65"
+      },
+      "mouse": {
+        "speed": "400",
+        "bgSpeed": "0",
+        "layersSpeed": "0",
+        "origo": "enterpoint",
+        "type": "mouse",
+        "omulti": 1,
+        "smulti": 1,
+        "env": "single",
+        "dir": "same"
+      }
+    },
+    "modal": {
+      "bodyclass": "",
+      "horizontal": "center",
+      "vertical": "middle",
+      "cover": true,
+      "allowPageScroll": false,
+      "coverColor": "rgba(0,0,0,0.5)",
+      "coverSpeed": 1000
+    },
+    "scrolleffects": {
+      "set": false,
+      "setBlur": false,
+      "setFade": false,
+      "setGrayScale": false,
+      "bg": false,
+      "direction": "both",
+      "layers": false,
+      "maxBlur": "10",
+      "multiplicator": "1.3",
+      "multiplicatorLayers": "1.3",
+      "disableOnMobile": true,
+      "parallaxLayers": false,
+      "staticLayers": false,
+      "staticParallaxLayers": false,
+      "tilt": "30"
+    },
+    "scrolltimeline": {
+      "set": false,
+      "fixed": false,
+      "fixedStart": 2000,
+      "fixedEnd": 4000,
+      "layers": false,
+      "ease": "none",
+      "speed": 500,
+      "pullcontent": false
+    },
+    "skins": {
+      "colorsAtStart": false,
+      "cid": 2,
+      "colors": [
+        {
+          "alias": "Highlight",
+          "v": "#ff0000",
+          "ref": []
+        },
+        {
+          "alias": "Headline Text",
+          "v": "#ffffff",
+          "ref": []
+        },
+        {
+          "alias": "Content Text",
+          "v": "#00ffff",
+          "ref": []
+        }
+      ]
+    },
+    "modalshortcode": "[rev_slider usage=\"modal\" alias=\"main-slider\"][/rev_slider]"
+  },
+  "slider_settings": {
+    "version": "6.6.16"
+  },
+  "slides": [
+    {
+      "order": "1",
+      "params": {
+        "title": "Slide",
+        "bg": {
+          "type": "image",
+          "color": "#f8f8f8",
+          "fit": "contain",
+          "position": "right center",
+          "image": "https://lentyribbony.ru/wp-content/uploads/2026/10/1757341_ccbb4ebb_1.jpeg",
+          "imageId": 10235,
+          "imageLib": "medialibrary",
+          "video": {
+            "args": "hd=1&wmode=opaque&showinfo=0&rel=0;",
+            "argsVimeo": "title=0&byline=0&portrait=0&api=1"
+          },
+          "imageWidth": 1920,
+          "imageHeight": 920,
+          "imageRatio": 2.0869565217391304
+        },
+        "thumb": {
+          "dimension": "slider",
+          "customThumbSrc": "https://lentyribbony.ru/wp-content/uploads/2026/10/1757341_ccbb4ebb_1-100x50.jpeg"
+        },
+        "info": {
+          "params": [
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            }
+          ]
+        },
+        "slideChange": {
+          "speed": 600,
+          "in": {
+            "o": 0
+          },
+          "out": {
+            "a": false
+          },
+          "title": "*opacity* Fade In",
+          "main": "basic",
+          "group": "fade",
+          "preset": "fade"
+        },
+        "nav": {
+          "arrows": {
+            "presets": {
+              "bg-color": "#ffffff",
+              "bg-color-def": false,
+              "size": "60",
+              "size-def": false,
+              "padding": "10",
+              "padding-def": false,
+              "arrow-color": "#000000",
+              "arrow-color-def": false,
+              "bg-hover-color": "rgba(255,255,255,0.75)",
+              "bg-hover-color-def": false
+            }
+          },
+          "bullets": {
+            "presets": {
+              "bullet-size": "16",
+              "bullet-size-def": false,
+              "bullet-color": "#ffffff",
+              "bullet-color-def": false,
+              "border": "2",
+              "border-def": false,
+              "bullet-hover": "rgba(0,0,0,0.21)",
+              "bullet-hover-def": false
+            }
+          }
+        },
+        "version": "6.6.16"
+      },
+      "layers": {
+        "top": {
+          "uid": "top",
+          "group": {
+            "puid": -1,
+            "groupOrder": 0
+          },
+          "type": "zone",
+          "alias": "TOP ROWS",
+          "position": {
+            "zIndex": 0,
+            "position": "absolute"
+          },
+          "version": "6.6.0",
+          "text": "",
+          "toggle": {
+            "text": ""
+          }
+        },
+        "middle": {
+          "uid": "middle",
+          "group": {
+            "puid": -1,
+            "groupOrder": 0
+          },
+          "type": "zone",
+          "alias": "MID ROWS",
+          "position": {
+            "zIndex": 0,
+            "position": "absolute"
+          },
+          "version": "6.6.0",
+          "text": "",
+          "toggle": {
+            "text": ""
+          }
+        },
+        "bottom": {
+          "uid": "bottom",
+          "group": {
+            "puid": -1,
+            "groupOrder": 0
+          },
+          "type": "zone",
+          "alias": "BOTTOM ROWS",
+          "position": {
+            "zIndex": 0,
+            "position": "absolute"
+          },
+          "version": "6.6.0",
+          "text": "",
+          "toggle": {
+            "text": ""
+          }
+        }
+      },
+      "id": 1
+    },
+    {
+      "order": "2",
+      "params": {
+        "bg": {
+          "type": "image",
+          "fit": "contain",
+          "position": "right center",
+          "image": "https://lentyribbony.ru/wp-content/uploads/2026/10/1757341_ccbb4ebb_2.jpeg",
+          "imageId": 10236,
+          "imageLib": "medialibrary",
+          "imageWidth": 1920,
+          "imageHeight": 920,
+          "imageRatio": 2.0869565217391304
+        },
+        "info": {
+          "params": [
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            }
+          ]
+        },
+        "slideChange": {
+          "in": {
+            "o": 0
+          },
+          "out": {
+            "a": false
+          },
+          "title": "*opacity* Fade In",
+          "main": "basic",
+          "group": "fade",
+          "preset": "fade"
+        },
+        "nav": {
+          "arrows": {
+            "presets": {
+              "bg-color": "#ffffff",
+              "bg-color-def": false,
+              "size": "60",
+              "size-def": false,
+              "padding": "10",
+              "padding-def": false,
+              "arrow-color": "#000000",
+              "arrow-color-def": false,
+              "bg-hover-color": "rgba(255,255,255,0.75)",
+              "bg-hover-color-def": false
+            }
+          },
+          "bullets": {
+            "presets": {
+              "bullet-size": "16",
+              "bullet-size-def": false,
+              "bullet-color": "#ffffff",
+              "bullet-color-def": false,
+              "border": "2",
+              "border-def": false,
+              "bullet-hover": "rgba(0,0,0,0.21)",
+              "bullet-hover-def": false
+            }
+          }
+        },
+        "uid": 6,
+        "version": "6.6.16",
+        "thumb": {
+          "customThumbSrc": "https://lentyribbony.ru/wp-content/uploads/2026/10/1757341_ccbb4ebb_2-100x50.jpeg"
+        }
+      },
+      "layers": {
+        "top": {
+          "uid": "top",
+          "group": {
+            "puid": -1,
+            "groupOrder": 0
+          },
+          "type": "zone",
+          "alias": "TOP ROWS",
+          "position": {
+            "zIndex": 0
+          },
+          "text": "",
+          "toggle": {
+            "text": ""
+          }
+        },
+        "middle": {
+          "uid": "middle",
+          "group": {
+            "puid": -1,
+            "groupOrder": 0
+          },
+          "type": "zone",
+          "alias": "MID ROWS",
+          "position": {
+            "zIndex": 0
+          },
+          "text": "",
+          "toggle": {
+            "text": ""
+          }
+        },
+        "bottom": {
+          "uid": "bottom",
+          "group": {
+            "puid": -1,
+            "groupOrder": 0
+          },
+          "type": "zone",
+          "alias": "BOTTOM ROWS",
+          "position": {
+            "zIndex": 0
+          },
+          "text": "",
+          "toggle": {
+            "text": ""
+          }
+        }
+      },
+      "id": 2
+    },
+    {
+      "order": "3",
+      "params": {
+        "bg": {
+          "type": "image",
+          "fit": "contain",
+          "position": "right center",
+          "image": "https://lentyribbony.ru/wp-content/uploads/2026/10/1757341_ccbb4ebb_3.jpeg",
+          "imageId": 10237,
+          "imageLib": "medialibrary",
+          "imageWidth": 1920,
+          "imageHeight": 920,
+          "imageRatio": 2.0869565217391304
+        },
+        "info": {
+          "params": [
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            },
+            {
+              "v": "",
+              "l": 10
+            }
+          ]
+        },
+        "slideChange": {
+          "in": {
+            "o": 0
+          },
+          "out": {
+            "a": false
+          },
+          "title": "*opacity* Fade In",
+          "main": "basic",
+          "group": "fade",
+          "preset": "fade"
+        },
+        "nav": {
+          "arrows": {
+            "presets": {
+              "bg-color": "#ffffff",
+              "bg-color-def": false,
+              "size": "60",
+              "size-def": false,
+              "padding": "10",
+              "padding-def": false,
+              "arrow-color": "#000000",
+              "arrow-color-def": false,
+              "bg-hover-color": "rgba(255,255,255,0.75)",
+              "bg-hover-color-def": false
+            }
+          },
+          "bullets": {
+            "presets": {
+              "bullet-size": "16",
+              "bullet-size-def": false,
+              "bullet-color": "#ffffff",
+              "bullet-color-def": false,
+              "border": "2",
+              "border-def": false,
+              "bullet-hover": "rgba(0,0,0,0.21)",
+              "bullet-hover-def": false
+            }
+          }
+        },
+        "uid": 7,
+        "version": "6.6.16",
+        "thumb": {
+          "customThumbSrc": "https://lentyribbony.ru/wp-content/uploads/2026/10/1757341_ccbb4ebb_3-100x50.jpeg"
+        }
+      },
+      "layers": {
+        "top": {
+          "uid": "top",
+          "group": {
+            "puid": -1,
+            "groupOrder": 0
+          },
+          "type": "zone",
+          "alias": "TOP ROWS",
+          "position": {
+            "zIndex": 0
+          },
+          "text": "",
+          "toggle": {
+            "text": ""
+          }
+        },
+        "middle": {
+          "uid": "middle",
+          "group": {
+            "puid": -1,
+            "groupOrder": 0
+          },
+          "type": "zone",
+          "alias": "MID ROWS",
+          "position": {
+            "zIndex": 0
+          },
+          "text": "",
+          "toggle": {
+            "text": ""
+          }
+        },
+        "bottom": {
+          "uid": "bottom",
+          "group": {
+            "puid": -1,
+            "groupOrder": 0
+          },
+          "type": "zone",
+          "alias": "BOTTOM ROWS",
+          "position": {
+            "zIndex": 0
+          },
+          "text": "",
+          "toggle": {
+            "text": ""
+          }
+        }
+      },
+      "id": 3
+    }
+  ],
+  "static_slide": {
+    "params": {
+      "version": "6.6.0",
+      "bg": {
+        "image": ""
+      }
+    },
+    "layers": [],
+    "id": 4
+  },
+  "navs": {
+    "arrows": {
+      "1011": {
+        "id": 1011,
+        "handle": "metis",
+        "type": "arrows",
+        "name": "Metis",
+        "css": ".metis.tparrows {\n  background:##bg-color##;\n  padding:##padding##px;\n  transition:all 0.3s;\n  -webkit-transition:all 0.3s;\n  width:##size##px;\n  height:##size##px;\n  box-sizing:border-box;\n }\n \n .metis.tparrows.rs-touchhover {\n   background:##bg-hover-color##;\n }\n \n .metis.tparrows:before {\n  color:##arrow-color##;  \n   transition:all 0.3s;\n  -webkit-transition:all 0.3s;\n }\n \n .metis.tparrows.rs-touchhover:before {\n   transform:scale(1.5);\n  }\n ",
+        "markup": "",
+        "factory": true,
+        "dim": {
+          "width": "160",
+          "height": "160"
+        },
+        "placeholders": {
+          "bg-color": {
+            "title": "Background",
+            "type": "color",
+            "data": "#ffffff"
+          },
+          "size": {
+            "title": "Size",
+            "type": "custom",
+            "data": "60"
+          },
+          "padding": {
+            "title": "Padding",
+            "type": "custom",
+            "data": "10"
+          },
+          "arrow-color": {
+            "title": "Arrow-Color",
+            "type": "color",
+            "data": "#000000"
+          },
+          "bg-hover-color": {
+            "title": "Hover-Background",
+            "type": "color",
+            "data": "rgba(255,255,255,0.75)"
+          }
+        },
+        "presets": [],
+        "version": "6.0.0"
+      }
+    },
+    "bullets": {
+      "3005": {
+        "id": 3005,
+        "handle": "hermes",
+        "type": "bullets",
+        "name": "Hermes",
+        "css": ".hermes.tp-bullets {\n}\n\n.hermes .tp-bullet {\n    overflow:hidden;\n    border-radius:50%;\n    width:##bullet-size##px;\n    height:##bullet-size##px;\n    background-color: rgba(0, 0, 0, 0);\n    box-shadow: inset 0 0 0 ##border##px ##bullet-color##;\n    -webkit-transition: background 0.3s ease;\n    transition: background 0.3s ease;\n    position:absolute;\n}\n\n.hermes .tp-bullet.rs-touchhover {\n\t  background-color: ##bullet-hover##;\n}\n.hermes .tp-bullet:after {\n  content: ' ';\n  position: absolute;\n  bottom: 0;\n  height: 0;\n  left: 0;\n  width: 100%;\n  background-color: ##bullet-color##;\n  box-shadow: 0 0 1px ##bullet-color##;\n  -webkit-transition: height 0.3s ease;\n  transition: height 0.3s ease;\n}\n.hermes .tp-bullet.selected:after {\n  height:100%;\n}\n",
+        "markup": "",
+        "factory": true,
+        "dim": {
+          "width": "160",
+          "height": "160"
+        },
+        "placeholders": {
+          "bullet-size": {
+            "title": "Bullet-Size",
+            "type": "custom",
+            "data": "16"
+          },
+          "bullet-color": {
+            "title": "Bullet-Color",
+            "type": "color",
+            "data": "#ffffff"
+          },
+          "border": {
+            "title": "Border-Thickness",
+            "type": "custom",
+            "data": "2"
+          },
+          "bullet-hover": {
+            "title": "Hover-Bullet",
+            "type": "color",
+            "data": "rgba(0,0,0,0.21)"
+          }
+        },
+        "presets": [],
+        "version": "6.0.0"
+      }
+    }
+  },
+  "trans": {
+    "basic": {
+      "icon": "aspect_ratio",
+      "fade": {
+        "title": "*opacity* Fade In",
+        "in": {
+          "o": 0
+        },
+        "out": {
+          "a": false
+        }
+      }
+    }
+  },
+  "v6v7ids": {
+    "s": {
+      "1": 4
+    },
+    "n": {
+      "4": 1,
+      "6": 2,
+      "7": 3
+    }
+  },
+  "addOns": []
+}

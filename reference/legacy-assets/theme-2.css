@@ -1,0 +1,47 @@
+/* Вариант 2 — СПОКОЙНЫЙ: приглушённая шалфейно-бежевая палитра */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Karla:wght@400;500;600;700&display=swap');
+
+:root {
+  --color-bg: #faf9f6;
+  --color-surface: #f1efe8;
+  --color-text: #3c3a35;
+  --color-text-muted: #948f84;
+  --color-primary: #7c8c74;
+  --color-primary-dark: #566150;
+  --color-accent: #a99a7c;
+  --color-accent-contrast: #f1ecdf;
+  --color-border: #e7e3da;
+  --color-header-bg: #ffffff;
+  --color-topbar-bg: #566150;
+  --color-footer-bg: #3c3a35;
+  --color-footer-text: #c9c4ba;
+
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Karla', Arial, sans-serif;
+}
+
+.top-bar { color: #eef0e9; }
+.top-bar a { color: #eef0e9; }
+
+/* более спокойная, приглушённая подача: мягкие тени, без градиентов */
+h1, h2, h3, h4 { letter-spacing: .01em; }
+.section-title h2 { letter-spacing: .02em; }
+.btn { letter-spacing: .02em; }
+.category-card, .product-card, .advantage-card, .payment-card, .review-card {
+  box-shadow: none;
+}
+.category-card:hover, .product-card:hover {
+  box-shadow: 0 10px 24px rgba(86, 97, 80, .12);
+}
+.product-card .badge {
+  background: var(--color-primary);
+  font-weight: 600;
+  letter-spacing: .02em;
+}
+.review-card .stars { color: var(--color-accent); letter-spacing: 3px; }
+
+/* спокойная подача украшений: тише орнаменты, мягче пятна и кольца */
+.subtitle::before, .eyebrow::before, .hero-slide-content .eyebrow::before { content: "— "; }
+.subtitle::after, .eyebrow::after, .hero-slide-content .eyebrow::after { content: " —"; }
+.page-hero::before, .page-hero::after, .section-title::before { opacity: .08; }
+.category-card::before { opacity: .25; }
