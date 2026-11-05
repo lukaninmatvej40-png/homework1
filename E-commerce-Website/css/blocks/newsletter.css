@@ -1,0 +1,116 @@
+.newsletter {
+  position: relative;
+}
+
+.newsletter::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  bottom: 0;
+  background-color: var(--bg-secondary);
+  z-index: var(--layer-negative);
+}
+
+.newsletter__container {
+  position: relative;
+  z-index: var(--layer-1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+  padding: 36px 64px;
+  background-color: var(--main-color);
+  border-radius: 20px;
+}
+
+.newsletter__title {
+  max-width: 552px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--bg-color);
+}
+
+.newsletter__form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+}
+
+.newsletter__field {
+  position: relative;
+  display: block;
+}
+
+.newsletter__icon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+}
+
+.newsletter__input {
+  width: 100%;
+  padding: 12px 20px 12px 54px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  background-color: var(--bg-color);
+  border: none;
+  border-radius: 62px;
+  outline: none;
+}
+
+.newsletter__input::placeholder {
+  color: var(--text-light);
+}
+
+.newsletter__button {
+  padding: 12px 28px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--main-color);
+  background-color: var(--bg-color);
+  border: none;
+  border-radius: 62px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: opacity var(--transition-time);
+}
+
+.newsletter__button:hover {
+  opacity: 0.8;
+}
+
+@media (width <= 768px) {
+  .newsletter::before {
+    top: 40%;
+  }
+
+  .newsletter__container {
+    grid-template-columns: 1fr;
+    padding: 32px 24px;
+  }
+  .newsletter__title {
+    text-align: center;
+    margin-inline: auto;
+  }
+  .newsletter__form {
+    max-width: none;
+    margin-left: 0;
+  }
+  .newsletter__button {
+    width: 100%;
+  }
+}

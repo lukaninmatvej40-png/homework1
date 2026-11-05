@@ -1,0 +1,76 @@
+.categories {
+  padding-block: 80px;
+}
+
+.categories__title {
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+
+.categories__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.categories__card {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-time), box-shadow var(--transition-time);
+}
+
+.categories__card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.categories__link {
+  display: block;
+  color: var(--main-color);
+}
+
+.categories__img-wrapper {
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+}
+
+.categories__img {
+  width: 100%;
+  height: 100%;
+  transition: transform var(--transition-time);
+}
+
+.categories__card:hover .categories__img {
+  transform: scale(1.05);
+}
+
+.categories__img--men {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+}
+
+.categories__img--women {
+  background: linear-gradient(135deg, #ee9ca7 0%, #ffdde1 100%);
+}
+
+.categories__img--accessories {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+}
+
+.categories__name {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (width < 576px) {
+  .categories {
+    padding-block: 50px;
+  }
+}

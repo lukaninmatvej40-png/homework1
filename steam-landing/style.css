@@ -1,0 +1,79 @@
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+    --bg:#0a0a0f;
+    --surface:#14141f;
+    --border:#1e1e2e;
+    --text:#e2e2e8;
+    --muted:#8888a0;
+    --accent:#7C3AED;
+    --accent-soft:rgba(124,58,237,.15);
+    --radius:12px;
+}
+html{font-size:16px;scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;line-height:1.5;-webkit-font-smoothing:antialiased}
+.container{max-width:1120px;margin:0 auto;padding:0 24px}
+
+/* Header */
+.header{position:sticky;top:0;z-index:100;background:rgba(10,10,15,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:16px 0}
+.header__inner{display:flex;align-items:center;gap:24px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text);font-weight:700;font-size:1.15rem}
+.logo__icon{flex-shrink:0}
+.header__nav{margin-left:auto}
+.advantages{display:flex;list-style:none;gap:20px}
+.advantages__item{font-size:.85rem;color:var(--muted);position:relative;padding-left:14px}
+.advantages__item::before{content:'';position:absolute;left:0;top:50%;transform:translateY(-50%);width:6px;height:6px;border-radius:50%;background:var(--accent)}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;border:none;cursor:pointer;font-size:.9rem;font-weight:600;border-radius:8px;padding:10px 22px;transition:background .2s,box-shadow .2s,transform .1s}
+.btn:active{transform:scale(.97)}
+.btn--outline{background:transparent;border:1px solid var(--border);color:var(--text)}
+.btn--outline:hover{border-color:var(--accent);color:#fff}
+.btn--primary{background:var(--accent);color:#fff;padding:14px 36px;font-size:1rem;border-radius:10px;box-shadow:0 4px 24px rgba(124,58,237,.35)}
+.btn--primary:hover{background:#6d28d9;box-shadow:0 6px 32px rgba(124,58,237,.5)}
+
+/* Hero */
+.hero{padding:80px 0 60px}
+.hero__inner{display:flex;align-items:center;gap:60px}
+.hero__content{flex:1;max-width:520px}
+.hero__title{font-size:clamp(2rem,5vw,3.2rem);font-weight:800;line-height:1.15;margin-bottom:20px;letter-spacing:-.02em}
+.hero__desc{color:var(--muted);font-size:1.05rem;margin-bottom:32px;max-width:440px}
+.payments{margin-top:36px}
+.payments__label{font-size:.8rem;color:var(--muted);display:block;margin-bottom:10px}
+.payments__icons{display:flex;flex-wrap:wrap;gap:8px}
+.pay-badge{font-size:.75rem;padding:6px 12px;border-radius:6px;background:var(--surface);border:1px solid var(--border);color:var(--muted);font-weight:500}
+
+/* Steam Card */
+.hero__card{flex:1;display:flex;justify-content:center}
+.steam-card{width:320px;aspect-ratio:1.6/1;background:linear-gradient(135deg,#1a1a2e 0%,#16162a 50%,#1e1040 100%);border:1px solid var(--border);border-radius:var(--radius);padding:28px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 20px 60px rgba(124,58,237,.12),0 0 0 1px rgba(124,58,237,.08);position:relative;overflow:hidden}
+.steam-card::before{content:'';position:absolute;top:-40%;right:-40%;width:80%;height:80%;background:radial-gradient(circle,rgba(124,58,237,.15) 0%,transparent 70%);pointer-events:none}
+.steam-card__header{display:flex;align-items:center;justify-content:space-between}
+.steam-card__logo{font-weight:800;font-size:1.1rem;letter-spacing:.08em}
+.steam-card__badge{font-size:.65rem;padding:3px 8px;border-radius:4px;background:var(--accent-soft);color:var(--accent);font-weight:600;letter-spacing:.04em}
+.steam-card__amount{font-size:2.4rem;font-weight:700;text-align:center;color:#fff}
+.steam-card__footer{display:flex;align-items:center;justify-content:space-between;font-size:.8rem;color:var(--muted)}
+.steam-card__dot{width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 8px #22c55e}
+
+/* Stats */
+.stats{padding:60px 0 80px;border-top:1px solid var(--border)}
+.stats__inner{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;text-align:center}
+.stats__item{padding:24px 16px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius)}
+.stats__value{display:block;font-size:1.6rem;font-weight:700;color:#fff;margin-bottom:6px}
+.stats__label{font-size:.8rem;color:var(--muted)}
+
+/* Responsive */
+@media(max-width:768px){
+    .header__inner{flex-wrap:wrap}
+    .advantages{display:none}
+    .hero{padding:48px 0 40px}
+    .hero__inner{flex-direction:column;gap:40px;text-align:center}
+    .hero__content{max-width:100%}
+    .hero__desc{margin-left:auto;margin-right:auto}
+    .payments__icons{justify-content:center}
+    .steam-card{width:280px}
+    .stats__inner{grid-template-columns:repeat(2,1fr);gap:16px}
+}
+@media(max-width:480px){
+    .stats__inner{grid-template-columns:1fr 1fr}
+    .steam-card{width:100%;max-width:300px}
+    .hero__title{font-size:1.8rem}
+}

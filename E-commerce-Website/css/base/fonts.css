@@ -1,0 +1,92 @@
+/* Satoshi - основной корпусный шрифт */
+@font-face {
+	font-family: "Satoshi";
+	src: local("Satoshi Light"),
+		url("../../fonts/Satoshi-Light.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Satoshi";
+	src: local("Satoshi Regular"),
+		url("../../fonts/Satoshi-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Satoshi";
+	src: local("Satoshi Medium"),
+		url("../../fonts/Satoshi-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Satoshi";
+	src: local("Satoshi Bold"),
+		url("../../fonts/Satoshi-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Integral CF - заголовочный шрифт */
+@font-face {
+	font-family: "Integral CF";
+	src: local("Integral CF Regular"),
+		url("../../fonts/IntegralCF-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Integral CF";
+	src: local("Integral CF Bold"),
+		url("../../fonts/IntegralCF-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Fallback - Montserrat (оставляем существующие) */
+@font-face {
+	font-family: Montserrat;
+	src: local("Montserrat Light"), local("Montserrat-Light"),
+		url("../../fonts/MontserratLight.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: local("Montserrat Regular"), local("Montserrat-Regular"),
+		url("../../fonts/MontserratRegular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: local("Montserrat Medium"), local("Montserrat-Medium"),
+		url("../../fonts/MontserratMedium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"),
+		url("../../fonts/MontserratSemiBold.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}

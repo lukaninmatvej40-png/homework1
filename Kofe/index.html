@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Indy Ways — порционное какао для дома, офиса и дороги. Выберите свой вкус.">
+  <title>Indy Ways — новый способ сделать паузу</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">Порционное какао · 40 г · готово за 5 секунд</div>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Indy Ways, на главную"><img src="assets/logo.webp" alt="Indy Ways"><span>Indy Ways</span></a>
+      <nav class="nav-links" data-nav-links aria-label="Основная навигация">
+        <a href="catalog.html">Вкусы</a><a href="prepare.html">Как приготовить</a><a href="why.html">Почему мы</a><a href="b2b.html">Для бизнеса</a><a href="about.html">О нас</a>
+      </nav>
+      <div class="nav-actions"><button class="cart-button" data-cart-open aria-label="Открыть корзину"><span>Корзина</span><span class="cart-count" data-cart-count>0</span></button><button class="menu-button" data-menu-toggle aria-label="Открыть меню">☰</button></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="section-label">Новый способ сделать паузу</span>
+          <h1>Какао, которое <em>подстраивается</em> под ваш день.</h1>
+          <p class="lead">Одна порция, четыре характера и ни одной лишней сложности. Для дома, офиса, дороги — просто откройте пакетик и выберите свой момент.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#moment">Найти свой вкус <span>↗</span></a><a class="btn btn-ghost" href="prepare.html">Как это работает</a></div>
+          <div class="micro-proof"><span><strong>40 г</strong> в пакетике</span><span><strong>170 мл</strong> воды</span><span><strong>5 сек</strong> до паузы</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Ассорти Indy Ways">
+          <div class="hero-orb"></div><img class="hero-box" src="assets/box.webp" alt="Ассорти какао Indy Ways"><img class="hero-pack" src="assets/caramel.webp" alt="Какао со вкусом карамели"><div class="hero-sticker">4 вкуса<br>в одной<br>коробке</div><div class="hero-note"><strong>Порция уже собрана</strong>Никаких мерных ложек, молока и длинных инструкций.</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="signal-strip"><div class="container signal-track"><span><i></i> Растворяется в горячей воде</span><span><i></i> Можно пить холодным</span><span><i></i> Без глютена</span><span><i></i> Удобно брать с собой</span></div></div>
+
+    <section class="section moment-section" id="moment">
+      <div class="container">
+        <div class="section-head"><div><span class="section-label">Интерактивный выбор</span><h2>Какой момент<br>сегодня ваш?</h2><p class="lead">Мы превратили длинное описание продукта в простой маршрут. Выберите сценарий — и сразу увидите подходящий вкус и способ приготовления.</p></div><a class="btn btn-secondary" href="catalog.html">Смотреть все вкусы</a></div>
+        <div class="moment-shell">
+          <div class="moment-nav" role="tablist" aria-label="Сценарии использования"><button class="moment-tab is-active" data-scenario="home" role="tab"><span>01</span><strong>Дома</strong><br><small>Тёплая пауза</small></button><button class="moment-tab" data-scenario="office" role="tab"><span>02</span><strong>В офисе</strong><br><small>Между задачами</small></button><button class="moment-tab" data-scenario="road" role="tab"><span>03</span><strong>В дороге</strong><br><small>Вкус с собой</small></button></div>
+          <div class="moment-panel" data-scenario-panel><div class="moment-copy"><span class="section-label" data-scenario-label>Сценарий 01 · дома</span><h3 data-scenario-title>Тёплая пауза на своей кухне</h3><p data-scenario-text>Порция 40 г уже рассчитана на одну чашку. Налейте 170 мл горячей воды, размешайте — и можно возвращаться к своим делам.</p><a class="btn btn-light" href="catalog.html">Выбрать вкус <span>↗</span></a></div><div class="moment-art"><img data-scenario-image src="assets/cinnamon.webp" alt="Корица и апельсин"><span class="art-label" data-scenario-badge>5 секунд<br>до паузы</span><span class="art-caption" data-scenario-caption>Корица &amp; апельсин</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-sm" id="flavors"><div class="container"><div class="section-head"><div><span class="section-label">Палитра вкусов</span><h2>Выберите настроение</h2></div><a class="btn btn-ghost" href="catalog.html">Весь каталог <span>↗</span></a></div><div class="product-grid">
+      <article class="product-card" data-product-card data-category="warm classic"><div class="product-thumb"><img src="assets/chocolate.webp" alt="Какао Высший шоколад"></div><div class="product-body"><span class="product-tag">Тёмная база</span><h3>Высший шоколад</h3><p>Глубокий вкус для тех, кто любит какао без компромиссов.</p><div class="product-footer"><span class="price">139 ₽ <small>/ 40 г</small></span><button class="btn btn-primary btn-small" data-add-to-cart data-name="Высший шоколад" data-price="139">В корзину</button></div></div></article>
+      <article class="product-card" data-product-card data-category="warm sweet"><div class="product-thumb"><img src="assets/caramel.webp" alt="Какао со вкусом карамели"></div><div class="product-body"><span class="product-tag">Тёмная база</span><h3>Карамель</h3><p>Мягкая сладость и тот самый аромат карамельной корочки.</p><div class="product-footer"><span class="price">139 ₽ <small>/ 40 г</small></span><button class="btn btn-primary btn-small" data-add-to-cart data-name="Карамель" data-price="139">В корзину</button></div></div></article>
+      <article class="product-card" data-product-card data-category="warm bright"><div class="product-thumb"><img src="assets/cinnamon.webp" alt="Какао с корицей и апельсином"></div><div class="product-body"><span class="product-tag">Тёмная база</span><h3>Корица &amp; апельсин</h3><p>Пряный цитрус для медленного утра и длинных разговоров.</p><div class="product-footer"><span class="price">139 ₽ <small>/ 40 г</small></span><button class="btn btn-primary btn-small" data-add-to-cart data-name="Корица и апельсин" data-price="139">В корзину</button></div></div></article>
+      <article class="product-card" data-product-card data-category="soft dessert"><div class="product-thumb"><img src="assets/mint.webp" alt="Какао со вкусом миндаля и тирамису"></div><div class="product-body"><span class="product-tag">Белая база</span><h3>Миндаль &amp; тирамису</h3><p>Десертный вкус, который превращает обычную чашку в событие.</p><div class="product-footer"><span class="price">139 ₽ <small>/ 40 г</small></span><button class="btn btn-primary btn-small" data-add-to-cart data-name="Миндаль и тирамису" data-price="139">В корзину</button></div></div></article>
+    </div></div></section>
+
+    <section class="section ritual-section"><div class="container"><div class="section-head"><div><span class="section-label">Ритуал Indy Ways</span><h2>Четыре шага.<br>Ноль суеты.</h2></div><p class="lead">Мы убрали всё, что мешает вкусной паузе. Состав уже внутри — остаётся только выбрать температуру и настроение.</p></div><div class="ritual-grid"><article class="ritual-step"><span class="ritual-no">01 / ОТКРОЙТЕ</span><h3>Один пакетик</h3><p>Не нужно отмерять смесь или искать большую банку.</p></article><article class="ritual-step"><span class="ritual-no">02 / ВЫСЫПЬТЕ</span><h3>В чашку</h3><p>Вся порция рассчитана на один напиток.</p></article><article class="ritual-step"><span class="ritual-no">03 / ДОБАВЬТЕ</span><h3>170 мл воды</h3><p>Горячей — для классики, холодной и льда — для прохлады.</p></article><article class="ritual-step"><span class="ritual-no">04 / РАЗМЕШАЙТЕ</span><h3>И наслаждайтесь</h3><p>Пять секунд — и можно возвращаться к важному.</p></article></div></div></section>
+
+    <section class="section taste-section"><div class="container taste-layout"><div class="taste-intro"><span class="section-label">Дизайн-решение</span><h2>Вкус — это не список. Это карта.</h2><p>На реальном сайте информационные блоки можно читать как маршрут: от базы к настроению, от настроения к покупке. Мы показываем эту логику визуально, чтобы посетитель быстрее нашёл «свой» вариант.</p><div class="taste-note">Новая визуальная механика для заказчика: интерактивная карта вкусов заменяет длинный перечень и помогает удержать внимание без визуального шума.</div></div><div class="taste-map" aria-label="Карта вкусов"><div class="taste-orbit"><div class="taste-core">Indy<br>Ways</div><span class="taste-chip one">цитрус<br>и специи</span><span class="taste-chip two">карамель<br>и тепло</span><span class="taste-chip three">десерт<br>и крем</span><span class="taste-chip four">глубокий<br>шоколад</span></div><span class="taste-legend">Подберите характер напитка</span></div></div></section>
+
+    <section class="section-sm"><div class="container"><div class="business-callout"><span class="section-label" style="color:#ffb06e">Для HoReCa и офисов</span><h2>Одна коробка — понятный сервис для команды и гостей.</h2><p>Порционный формат помогает контролировать расход, держать несколько вкусов под рукой и не превращать приготовление в отдельный процесс.</p><div class="business-actions"><a class="btn btn-light" href="horeca.html">Для заведений</a><a class="btn" style="background:rgba(255,255,255,.12);color:white" href="b2b.html">Для бизнеса</a></div></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a class="brand" href="index.html"><img src="assets/logo.webp" alt="Indy Ways"><span>Indy Ways</span></a><p>Какао для дома, офиса и дороги. Создаём настроение палитрой вкусов.</p></div><div><div class="footer-title">Навигация</div><div class="footer-links"><a href="catalog.html">Вкусы</a><a href="prepare.html">Как приготовить</a><a href="why.html">Почему мы</a><a href="faq.html">FAQ</a></div></div><div><div class="footer-title">Для бизнеса</div><div class="footer-links"><a href="horeca.html">HoReCa</a><a href="b2b.html">B2B</a><a href="contacts.html">Контакты</a><a href="about.html">О нас</a></div></div><div><div class="footer-title">Напишите нам</div><div class="footer-links"><a href="mailto:info@indyways.ru">info@indyways.ru</a><a href="contacts.html">Связаться с менеджером ↗</a></div></div></div><div class="footer-bottom"><span>Indy Ways © <span data-year>2026</span>. Сделано с любовью в Москве.</span><span>Демо-концепция для презентации заказчику</span></div></div></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <div class="cart-drawer" data-cart-drawer><aside class="cart-panel" aria-label="Корзина"><div class="cart-head"><h3>Ваша корзина</h3><button class="cart-close" data-cart-close aria-label="Закрыть корзину">×</button></div><div class="cart-items" data-cart-items></div><div class="cart-total"><span>Итого</span><span data-cart-total>0 ₽</span></div><a class="btn btn-primary" style="margin-top:16px" href="contacts.html">Оформить заявку</a></aside></div>
+  <script src="script.js"></script>
+</body>
+</html>

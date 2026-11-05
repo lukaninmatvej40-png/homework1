@@ -1,0 +1,135 @@
+.article {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.article-title-medium {
+  font-size: 36px;
+}
+
+.article-text {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #535755;
+}
+
+.article-text:last-child {
+  margin-bottom: 0;
+}
+
+.article-mb-1 {
+  margin-bottom: 80px;
+}
+
+.article-mb-2 {
+  margin-bottom: 40px;
+}
+
+.article-decor-wrapper {
+  position: relative;
+}
+
+.article-decor-wrapper-1::before {
+  top: 100px;
+  left: 0;
+}
+
+.article-decor-wrapper-2::before {
+  right: 0;
+  bottom: 136px;
+}
+
+.article-list {
+  margin-top: 0;
+  padding-left: 16px;
+}
+
+.article-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.article-item::marker {
+  font-size: 22px;
+  color: #3596ed;
+}
+
+.article-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  background-color: #3596ed;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.article-play-button:hover {
+  background-color: #38a2ff;
+}
+
+.article-play-button:not(:disabled):active {
+  background-color: #2d82cd;
+}
+
+@media (width <= 768px) {
+  .article-decor-wrapper::before {
+    display: none;
+  }
+
+  .article-title-medium {
+    font-size: 32px;
+  }
+
+  .article-mb-1 {
+    margin-bottom: 60px;
+  }
+}
+
+@media (width <= 576px) {
+  .article {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .article-title-medium {
+    font-size: 28px;
+  }
+
+  .article-mb-1 {
+    margin-bottom: 40px;
+  }
+
+  .article-mb-2 {
+    margin-bottom: 30px;
+  }
+
+  .article-play-button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .article-play-button img {
+    width: 18px;
+    height: 18px;
+  }
+}

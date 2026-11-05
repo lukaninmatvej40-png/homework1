@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: bisque;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+caption {
+  border: 1px solid #000;
+  border-bottom: 0;
+  background-color: bisque;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  padding: 5px;
+}
+th,
+td {
+  border: 1px solid #000;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+.weekend {
+  color: red;
+}
+.space {
+  background-color: aqua;
+}

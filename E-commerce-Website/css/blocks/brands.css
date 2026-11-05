@@ -1,0 +1,48 @@
+.brands {
+	padding-block: 44px;
+	background-color: var(--main-color);
+}
+
+.brands__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 40px 60px;
+	max-width: 1240px;
+	margin-inline: auto;
+	padding-inline: 20px;
+}
+
+.brands__logo {
+	height: auto;
+	max-height: 38px;
+	object-fit: contain;
+	filter: brightness(0) invert(1);
+	transition: opacity var(--transition-time);
+}
+
+.brands__logo:hover {
+	opacity: 0.8;
+}
+
+@media (width <= 768px) {
+	.brands__logo {
+		max-height: 28px;
+	}
+	.brands__container {
+		gap: 20px 30px;
+	}
+}
+
+@media (width <= 576px) {
+	.brands {
+		padding-block: 28px;
+	}
+	.brands__container {
+		gap: 24px 28px;
+	}
+	.brands__logo {
+		max-height: 20px;
+	}
+}

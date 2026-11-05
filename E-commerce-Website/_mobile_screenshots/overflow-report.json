@@ -1,0 +1,216 @@
+{
+  "docWidth": 390,
+  "scrollWidth": 375,
+  "overflowingElements": [
+    {
+      "tag": "NAV",
+      "class": "menu header__menu",
+      "left": 450,
+      "right": 750,
+      "width": 300
+    },
+    {
+      "tag": "UL",
+      "class": "menu__list",
+      "left": 470,
+      "right": 730,
+      "width": 260
+    },
+    {
+      "tag": "LI",
+      "class": "menu__item",
+      "left": 470,
+      "right": 540,
+      "width": 70
+    },
+    {
+      "tag": "A",
+      "class": "menu__link",
+      "left": 470,
+      "right": 540,
+      "width": 70
+    },
+    {
+      "tag": "LI",
+      "class": "menu__item",
+      "left": 470,
+      "right": 530,
+      "width": 60
+    },
+    {
+      "tag": "A",
+      "class": "menu__link",
+      "left": 470,
+      "right": 530,
+      "width": 60
+    },
+    {
+      "tag": "LI",
+      "class": "menu__item",
+      "left": 470,
+      "right": 635,
+      "width": 165
+    },
+    {
+      "tag": "A",
+      "class": "menu__link",
+      "left": 470,
+      "right": 635,
+      "width": 165
+    },
+    {
+      "tag": "LI",
+      "class": "menu__item",
+      "left": 470,
+      "right": 533,
+      "width": 63
+    },
+    {
+      "tag": "A",
+      "class": "menu__link",
+      "left": 470,
+      "right": 533,
+      "width": 63
+    },
+    {
+      "tag": "DIV",
+      "class": "reviews__track",
+      "left": -1110,
+      "right": -735,
+      "width": 375
+    },
+    {
+      "tag": "ARTICLE",
+      "class": "reviews__card",
+      "left": -1090,
+      "right": -740,
+      "width": 350
+    },
+    {
+      "tag": "DIV",
+      "class": "reviews__rating",
+      "left": -1057,
+      "right": -773,
+      "width": 284
+    },
+    {
+      "tag": "DIV",
+      "class": "reviews__stars",
+      "left": -1057,
+      "right": -773,
+      "width": 284
+    },
+    {
+      "tag": "SPAN",
+      "class": "star-full",
+      "left": -1057,
+      "right": -1036,
+      "width": 21
+    },
+    {
+      "tag": "SPAN",
+      "class": "star-full",
+      "left": -1030,
+      "right": -1008,
+      "width": 21
+    },
+    {
+      "tag": "SPAN",
+      "class": "star-full",
+      "left": -1002,
+      "right": -981,
+      "width": 21
+    },
+    {
+      "tag": "SPAN",
+      "class": "star-full",
+      "left": -975,
+      "right": -954,
+      "width": 21
+    },
+    {
+      "tag": "SPAN",
+      "class": "star-full",
+      "left": -948,
+      "right": -926,
+      "width": 21
+    },
+    {
+      "tag": "H3",
+      "class": "reviews__author",
+      "left": -1057,
+      "right": -773,
+      "width": 284
+    },
+    {
+      "tag": "IMG",
+      "class": "reviews__verified",
+      "left": -953,
+      "right": -933,
+      "width": 20
+    },
+    {
+      "tag": "P",
+      "class": "reviews__text",
+      "left": -1057,
+      "right": -773,
+      "width": 284
+    },
+    {
+      "tag": "ARTICLE",
+      "class": "reviews__card",
+      "left": -720,
+      "right": -370,
+      "width": 350
+    },
+    {
+      "tag": "DIV",
+      "class": "reviews__rating",
+      "left": -687,
+      "right": -403,
+      "width": 284
+    },
+    {
+      "tag": "DIV",
+      "class": "reviews__stars",
+      "left": -687,
+      "right": -403,
+      "width": 284
+    },
+    {
+      "tag": "SPAN",
+      "class": "star-full",
+      "left": -687,
+      "right": -666,
+      "width": 21
+    },
+    {
+      "tag": "SPAN",
+      "class": "star-full",
+      "left": -660,
+      "right": -638,
+      "width": 21
+    },
+    {
+      "tag": "SPAN",
+      "class": "star-full",
+      "left": -632,
+      "right": -611,
+      "width": 21
+    },
+    {
+      "tag": "SPAN",
+      "class": "star-full",
+      "left": -605,
+      "right": -584,
+      "width": 21
+    },
+    {
+      "tag": "SPAN",
+      "class": "star-full",
+      "left": -578,
+      "right": -556,
+      "width": 21
+    }
+  ]
+}
